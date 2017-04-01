@@ -1,0 +1,9 @@
+D:\Documents\Sergio\visualstudio\neuroWeb 2.0\neuroWeb 2.0\bin\Debug\neuroWeb 2.0.exe.config
+D:\Documents\Sergio\visualstudio\neuroWeb 2.0\neuroWeb 2.0\obj\Debug\neuroWeb 2.0.csprojResolveAssemblyReference.cache
+D:\Documents\Sergio\visualstudio\neuroWeb 2.0\neuroWeb 2.0\obj\Debug\neuroWeb_2._0.Form1.resources
+D:\Documents\Sergio\visualstudio\neuroWeb 2.0\neuroWeb 2.0\obj\Debug\neuroWeb_2._0.Properties.Resources.resources
+D:\Documents\Sergio\visualstudio\neuroWeb 2.0\neuroWeb 2.0\obj\Debug\neuroWeb 2.0.csproj.GenerateResource.Cache
+D:\Documents\Sergio\visualstudio\neuroWeb 2.0\neuroWeb 2.0\bin\Debug\neuroWeb 2.0.exe
+D:\Documents\Sergio\visualstudio\neuroWeb 2.0\neuroWeb 2.0\bin\Debug\neuroWeb 2.0.pdb
+D:\Documents\Sergio\visualstudio\neuroWeb 2.0\neuroWeb 2.0\obj\Debug\neuroWeb 2.0.exe
+D:\Documents\Sergio\visualstudio\neuroWeb 2.0\neuroWeb 2.0\obj\Debug\neuroWeb 2.0.pdb
