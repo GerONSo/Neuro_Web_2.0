@@ -587,12 +587,7 @@ namespace neuroWeb_2._0
         {
             bmp = (Bitmap)Image.FromFile("white.bmp");
             pictureBox2.Image = Image.FromFile("white.bmp");
-            DialogResult result;
-            Environment.CurrentDirectory = "C://neuroWeb";
-            string message = Directory.GetCurrentDirectory(); ;
-            string caption = "Error Detected in Input";
-            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
-            result = MessageBox.Show(message, caption, buttons);
+           
         }
     }
 }
