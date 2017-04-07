@@ -218,7 +218,7 @@ namespace neuroWeb_2._0
 
             string[] tripleWeights = new string[pictureWidth];
             string[] doubleWeights = new string[pictureHeight];
-            string[] readText = File.ReadAllLines("weights.csv");
+            string[] readText = File.ReadAllLines("C:\\neuroWeb\\weights.csv");
 
 
             for (int i = 0; i <= HiddenNeuronsCount - 1; i++)
@@ -261,7 +261,7 @@ namespace neuroWeb_2._0
         }
         void readSecondWeights()
         {
-            string[] readText = File.ReadAllLines("secondWeights.csv");
+            string[] readText = File.ReadAllLines("C:\\neuroWeb\\secondWeights.csv");
             string[] everyWeight = new string[HiddenNeuronsCount];
 
             for (int j = 0; j < outputNeuronsCount; j++)
@@ -408,9 +408,9 @@ namespace neuroWeb_2._0
                 {
                     for (int i = 0; i < 10; i++)
                     {
-                        pictureBox1.Image = Image.FromFile("pictures_for_learning\\" + i + "_" + j + ".bmp");
+                        pictureBox1.Image = Image.FromFile("C:\\neuroWeb//pictures_for_learning\\" + i + "_" + j + ".bmp");
                         bitmap = pictureBox1.Image as Bitmap;
-                        string filename = Path.GetFileName("pictures_for_learning\\" + i + "_" + j + ".bmp");
+                        string filename = Path.GetFileName("C:\\neuroWeb//pictures_for_learning\\" + i + "_" + j + ".bmp");
                         string number = filename.Substring(0, 1);
                         int num = Convert.ToInt32(number);
                         for (int p = 0; p < pictureWidth; p++)
@@ -587,6 +587,12 @@ namespace neuroWeb_2._0
         {
             bmp = (Bitmap)Image.FromFile("white.bmp");
             pictureBox2.Image = Image.FromFile("white.bmp");
+            DialogResult result;
+            Environment.CurrentDirectory = "C://neuroWeb";
+            string message = Directory.GetCurrentDirectory(); ;
+            string caption = "Error Detected in Input";
+            MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+            result = MessageBox.Show(message, caption, buttons);
         }
     }
 }
